@@ -1,6 +1,6 @@
 # Linguoleap
 
-## Get Started
+## Getting Started
 
 1. Clone the project
 
@@ -10,7 +10,7 @@
 
    > cd Linguoleap-Frontend
 
-3. Install the packages
+3. Install dependencies and set up the project.
 
    > npm install || npm i
 
