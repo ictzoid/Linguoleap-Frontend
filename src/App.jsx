@@ -1,15 +1,14 @@
 import "./App.css";
+import SignUp from "./components/SignUp/SignUp";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <>
-      <h1
-        className="header"
-        style={{ backgroundColor: "var(--primary-color)" }}
-      >
-        Hello
-      </h1>
-      <h2>world</h2>
+
+      <SignUp />
+      <ToastContainer />
     </>
   );
 }
