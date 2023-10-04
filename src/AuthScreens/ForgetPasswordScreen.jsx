@@ -1,9 +1,14 @@
-import React from 'react'
+import Input from "../components/Input/Input";
+import Message from "../components/Input/Message";
 
 const ForgetPasswordScreen = () => {
   return (
-    <div>ForgetPasswordScreen</div>
-  )
-}
+    <div>
+      ForgetPasswordScreen
+      <Input />
+      <Message />
+    </div>
+  );
+};
 
-export default ForgetPasswordScreen
+export default ForgetPasswordScreen;
