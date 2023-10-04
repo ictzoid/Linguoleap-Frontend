@@ -1,5 +1,5 @@
-import Input from "../components/Input/Input";
-import Message from "../components/Input/Message";
+import Input from "../../components/Input/Input";
+import Message from "../../components/Input/Message";
 
 const ForgetPasswordScreen = () => {
   return (
