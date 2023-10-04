@@ -6,6 +6,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .p-res {
+    @apply text-pDef sm:text-pSm lg:text-pLg;
+  }
+  .h1-res {
+    @apply text-h1Def sm:text-h1Sm lg:text-h1Lg;
+  }
+  .h2-res {
+    @apply text-h2Def sm:text-h2Sm lg:text-h2Lg;
+  }
+  .h3-res {
+    @apply text-h3Def sm:text-h3Sm lg:text-h3Lg;
+  }
+  .btn-res {
+    @apply text-pDef sm:text-pSm lg:text-xl;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;

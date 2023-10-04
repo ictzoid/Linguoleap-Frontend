@@ -12,8 +12,14 @@ export default {
         inputSuccess: "#0F6E0D",
         inputError: "#F31623",
       },
+      padding: {
+        tenPx: "10px",
+      },
       height: {
         fourHundredPixels: "200px",
+      },
+      width: {
+        threeSixSixPx: "366px",
       },
       fontFamily: {
         lexend: "Lexend",
@@ -21,6 +27,20 @@ export default {
       },
       borderRadius: {
         fourPx: "4px",
+      },
+      fontSize: {
+        pDef: "14px",
+        pSm: "16px",
+        pLg: "18px",
+        h1Def: "32px",
+        h1Sm: "44px",
+        h1Lg: "56px",
+        h2Def: "24px",
+        h2Sm: "36px",
+        h2Lg: "48px",
+        h3Def: "20px",
+        h3Sm: "30px",
+        h3Lg: "40px",
       },
     },
   },
