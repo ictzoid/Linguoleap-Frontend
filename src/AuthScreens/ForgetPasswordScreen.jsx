@@ -13,10 +13,10 @@ const ForgetPasswordScreen = () => {
       <img
         src={logo}
         alt="linguoleap logo"
-        className="absolute top-10 left-10 w-28"
+        className="hidden sm:block absolute top-10 left-10 w-28"
       />
       {!isPassReset && (
-        <div className="w-3/4 sm:w-1/2 lg:w-threeSixSixPx p-5 rounded-lg bg-white shadow-lg flex flex-col gap-6 ">
+        <div className="w-3/4 sm:w-1/2 lg:w-threeSixSixPx flex flex-col gap-6 ">
           <img
             src={emailUnread}
             alt="email icon"
@@ -46,7 +46,7 @@ const ForgetPasswordScreen = () => {
 
       {/*  */}
       {isPassReset && (
-        <div className="w-3/4 sm:w-1/2 lg:w-96 p-5 rounded-lg bg-white shadow-lg flex flex-col gap-6 ">
+        <div className="w-3/4 sm:w-1/2 lg:w-96  flex flex-col gap-6 ">
           <img
             src={emailRead}
             alt="email icon"
@@ -68,7 +68,7 @@ const ForgetPasswordScreen = () => {
           </p>
         </div>
       )}
-      <p className="absolute bottom-9 text-inputGrey">
+      <p className="hidden sm:block absolute bottom-9 text-inputGrey">
         &copy; Copyright 2023{" "}
         <span className="text-primaryColor">Langleap</span>
       </p>
