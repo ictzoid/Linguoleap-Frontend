@@ -1,19 +1,34 @@
-<<<<<<< HEAD
-
-  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700;800;900&display=swap');
-/* 
-=======
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
->>>>>>> 533d7e46f50d5427e2f6d1ed414e87817172c6fd
+
+@import "./assets//css/variables.css";
 
 @tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
+
+@layer components {
+  .p-res {
+    @apply text-pDef sm:text-pSm lg:text-pLg;
+  }
+  .h1-res {
+    @apply text-h1Def sm:text-h1Sm lg:text-h1Lg;
+  }
+  .h2-res {
+    @apply text-h2Def sm:text-h2Sm lg:text-h2Lg;
+  }
+  .h3-res {
+    @apply text-h3Def sm:text-h3Sm lg:text-h3Lg;
+  }
+  .btn-res {
+    @apply text-pDef sm:text-pSm lg:text-xl;
+  }
+}
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: var(--font_stack1);
 }
