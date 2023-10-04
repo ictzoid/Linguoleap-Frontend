@@ -1,5 +1,10 @@
 /* variables.css */
 :root {
   --primary-color: #713586;
+  --button-onHover:#A986b6;
   --secondary-color: #ff7536;
+  --font_stack1: 'Lexend', sans-serif;
 }
+
+
+
