@@ -50,7 +50,7 @@ const Input = ({
             id={idFor}
           />
           <div className=" absolute top-0 bottom-0 right-0 grid place-items-center p-2">
-            {icon ?? "(- {:{) -)"}
+            {icon ?? "(- ({:{) -)"}
           </div>
         </div>
       )}
