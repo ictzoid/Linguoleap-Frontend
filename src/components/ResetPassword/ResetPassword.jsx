@@ -42,7 +42,7 @@ const ResetPassword = () => {
             confirmPassword
         }
 
-        console.log(password,confirmPassword)
+        
         console.log(data)
 
         setTimeout(()=>{
@@ -52,7 +52,7 @@ const ResetPassword = () => {
         
         
     }
-   
+    console.log(password,confirmPassword)
     
     const date = new Date()
   return (
@@ -91,7 +91,7 @@ const ResetPassword = () => {
             <p className={styles.error}>{confirmPasswordError}</p>
 
             <button className={styles.reset_btn} type="submit" >Reset Password</button>
-            <Link to="./login">
+            <Link to="/login">
             <p>Back To Login</p>
             </Link>
             </form>
