@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import LoginScreen from "./AuthScreens/LoginScreen";
-import SignUpScreen from "./AuthScreens/SignUpScreen";
-import EmailVerificationScreen from "./AuthScreens/EmailVerificationScreen";
-import ForgetPasswordScreen from "./AuthScreens/ForgetPasswordScreen";
-import ResetPasswordScreen from "./AuthScreens/ResetPasswordScreen";
-import Home from "./pages/Home/Home";
+import LoginScreen from "../pages/AuthScreens/LoginScreen";
+import SignUpScreen from "../pages/AuthScreens/SignUpScreen";
+import EmailVerificationScreen from "../pages/AuthScreens/EmailVerificationScreen";
+import ForgetPasswordScreen from "../pages/AuthScreens/ForgetPasswordScreen";
+import ResetPasswordScreen from "../pages/AuthScreens/ResetPasswordScreen";
+import Home from "../pages/Home/Home";
 
 const Router = () => {
   return (

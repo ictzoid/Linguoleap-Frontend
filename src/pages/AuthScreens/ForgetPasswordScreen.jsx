@@ -1,10 +1,9 @@
 import { useState } from "react";
-import SecButton from "../components/Buttons/SecButton";
-import Input from "../components/Input/Input";
-import logo from "../assets/images/logo_purple.png";
-import emailUnread from "../assets/images/email_unchecked.png";
-import emailRead from "../assets/images/email_checked.png";
-import eye from "../assets/images/eye.png";
+import SecButton from "../../components/Buttons/SecButton";
+import Input from "../../components/Input/Input";
+import logo from "../../assets/images/logo_purple.png";
+import emailUnread from "../../assets/images/email_unchecked.png";
+import emailRead from "../../assets/images/email_checked.png";
 
 const ForgetPasswordScreen = () => {
   const [isPassReset, setPassReset] = useState(false);
@@ -16,7 +15,7 @@ const ForgetPasswordScreen = () => {
         className="hidden sm:block absolute top-10 left-10 w-28"
       />
       {!isPassReset && (
-        <div className="w-3/4 sm:w-1/2 lg:w-threeSixSixPx flex flex-col gap-5 ">
+        <div className="w-3/4 sm:w-1/2 sm:mb-10 lg:w-threeSixSixPx flex flex-col gap-5 ">
           <img
             src={emailUnread}
             alt="email icon"
@@ -33,7 +32,6 @@ const ForgetPasswordScreen = () => {
             type="email"
             placeholder={"Enter Your Email Address"}
             status={"def"}
-            icon={eye}
             labelTxt={"Email Address"}
           />
           <div onClick={() => setPassReset(true)}>
@@ -47,7 +45,7 @@ const ForgetPasswordScreen = () => {
 
       {/*  */}
       {isPassReset && (
-        <div className="w-3/4 sm:w-1/2 lg:w-96  flex flex-col gap-5 ">
+        <div className="w-3/4 sm:w-1/2 sm:mb-10 lg:w-96  flex flex-col gap-5 ">
           <img
             src={emailRead}
             alt="email icon"
