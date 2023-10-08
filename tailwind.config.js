@@ -14,29 +14,36 @@ export default {
         grayScale: "#616161",
         grayScale2: "#B0B0B0",
         onhoverColor:'#A986b6',
+        
+        secondary_color: "#ff7536",
+        grayColor:"#b0b0b0",
+       
       },
       padding: {
         tenPx: "10px",
       },
       height: {
         fourHundredPixels: "200px",
+
+        fourZeroZeroPx:"400px"
+      },
+      width: {
+        threeSixSixPx: "366px",
+        fourFiftyPx:"450px",
+        threeFiftyPx: "350px",
         thirtySixPixels: "36px",
         fourtypx: "40px",
         oneThirtyPixels: "130px",
         nineteen: "19px",
         fourtyTwopx: '42px',
         fourtyFivepx: '45px',
-        fourHundredPx:"400px"
-      },
-      width: {
-        threeSixSixPx: "366px",
+        fourHundredPx:"400px",
         oneFiftyPixels: "150px",
-        threeSixtySix: "366px",
         threeNintyFivepx: "395px",
         threeHundred: "300px",
-        nineteen: "19px",
-        fourFiftyPx:"450px",
-        threeFiftyPx:"350px"
+        
+        
+        
       },
 
       boxShadow: {
