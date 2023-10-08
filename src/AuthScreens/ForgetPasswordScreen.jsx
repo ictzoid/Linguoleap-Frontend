@@ -16,13 +16,13 @@ const ForgetPasswordScreen = () => {
         className="hidden sm:block absolute top-10 left-10 w-28"
       />
       {!isPassReset && (
-        <div className="w-3/4 sm:w-1/2 lg:w-threeSixSixPx flex flex-col gap-6 ">
+        <div className="w-3/4 sm:w-1/2 lg:w-threeSixSixPx flex flex-col gap-5 ">
           <img
             src={emailUnread}
             alt="email icon"
             className="w-8 sm:w-16 lg:w-24 self-center"
           />
-          <h3 className="h3-res text-primaryColor text-center p-2 font-semibold">
+          <h3 className="h3-res text-primaryColor text-center px-2 font-semibold">
             Forgot Password
           </h3>
           <p className="text-center text-secInputGrey p-res">
@@ -30,10 +30,11 @@ const ForgetPasswordScreen = () => {
             will be sent to you shortly.
           </p>
           <Input
-            type="search"
-            placeholder={"Enter New Password"}
+            type="email"
+            placeholder={"Enter Your Email Address"}
             status={"def"}
             icon={eye}
+            labelTxt={"Email Address"}
           />
           <div onClick={() => setPassReset(true)}>
             <SecButton text={"Verify email"} />
@@ -46,13 +47,13 @@ const ForgetPasswordScreen = () => {
 
       {/*  */}
       {isPassReset && (
-        <div className="w-3/4 sm:w-1/2 lg:w-96  flex flex-col gap-6 ">
+        <div className="w-3/4 sm:w-1/2 lg:w-96  flex flex-col gap-5 ">
           <img
             src={emailRead}
             alt="email icon"
             className="w-8 sm:w-16 lg:w-24 self-center"
           />
-          <h3 className="h3-res text-primaryColor text-center p-2 font-semibold">
+          <h3 className="h3-res text-primaryColor text-center px-2 font-semibold">
             Check your Email
           </h3>
           <p className="text-center text-secInputGrey p-res">
@@ -64,11 +65,11 @@ const ForgetPasswordScreen = () => {
 
           <p className=" flex justify-center flex-wrap gap-1 text-center text-inputGrey p-res">
             Didn&apos;t receive an email?{" "}
-            <p className="text-primaryColor p-res">Resend link</p>
+            <span className="text-primaryColor p-res">Resend link</span>
           </p>
         </div>
       )}
-      <p className="hidden sm:block absolute bottom-9 text-inputGrey">
+      <p className="hidden sm:block absolute bottom-8 text-inputGrey">
         &copy; Copyright 2023{" "}
         <span className="text-primaryColor">Langleap</span>
       </p>
