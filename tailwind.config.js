@@ -10,24 +10,46 @@ export default {
         secInputGrey: "#5F5757",
         blackNeutral: "#121212",
         inputSuccess: "#0F6E0D",
-        inputError: "#F31623",
+        inputError: "#F31623"
         onhoverColor:"#A986b6",
         secondary_color: "#ff7536",
         grayColor:"#b0b0b0"
-  
+        grayScale: "#616161",
+        grayScale2: "#B0B0B0"
       },
       padding: {
         tenPx: "10px",
       },
       height: {
         fourHundredPixels: "200px",
+
         fourZeroZeroPx:"400px"
       },
       width: {
         threeSixSixPx: "366px",
         fourFiftyPx:"450px",
         threeFiftyPx: "350px"
+=======
+        thirtySixPixels: "36px",
+        fourtypx: "40px",
+        oneThirtyPixels: "130px",
+        nineteen: "19px",
+        fourtyTwopx: '42px',
+        fourtyFivepx: '45px',
       },
+      width: {
+        threeSixSixPx: "366px",
+        oneFiftyPixels: "150px",
+        threeSixtySix: "366px",
+        threeNintyFivepx: "395px",
+        threeHundred: "300px",
+        nineteen: "19px"
+      },
+
+      boxShadow: {
+        'text': '0px 4px 4px rgba(0, 0, 0, 0.25)',
+      },
+      
       fontFamily: {
         lexend: "Lexend",
         montserrat: "Montserrat",
@@ -36,6 +58,8 @@ export default {
         fourPx: "4px",
       },
       fontSize: {
+        thirtytwoPixels: "32px",
+        thirtyPixels: "30px", 
         pDef: "14px",
         pSm: "16px",
         pLg: "18px",
