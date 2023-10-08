@@ -11,15 +11,22 @@ export default {
         blackNeutral: "#121212",
         inputSuccess: "#0F6E0D",
         inputError: "#F31623",
+        onhoverColor:"#A986b6",
+        secondary_color: "#ff7536",
+        grayColor:"#b0b0b0"
+  
       },
       padding: {
         tenPx: "10px",
       },
       height: {
         fourHundredPixels: "200px",
+        fourZeroZeroPx:"400px"
       },
       width: {
         threeSixSixPx: "366px",
+        fourFiftyPx:"450px",
+        threeFiftyPx: "350px"
       },
       fontFamily: {
         lexend: "Lexend",
