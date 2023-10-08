@@ -107,7 +107,7 @@ const ResetPassword = () => {
             </Link>
             </form>
         </div>
-       <div className="text-center mt-4 lg:mt-20">
+       <div className="text-center mt-2 lg:mt-10">
         <p className="font-lexend text-inputGrey">&copy; copyrights {date.getFullYear()} <span className="text-primaryColor">langleap</span></p>
        </div>
     </div>

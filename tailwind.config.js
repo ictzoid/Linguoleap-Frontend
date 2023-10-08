@@ -13,6 +13,7 @@ export default {
         inputError: "#F31623",
         grayScale: "#616161",
         grayScale2: "#B0B0B0",
+        onhoverColor:'#A986b6',
       },
       padding: {
         tenPx: "10px",
@@ -25,6 +26,7 @@ export default {
         nineteen: "19px",
         fourtyTwopx: '42px',
         fourtyFivepx: '45px',
+        fourHundredPx:"400px"
       },
       width: {
         threeSixSixPx: "366px",
@@ -32,7 +34,9 @@ export default {
         threeSixtySix: "366px",
         threeNintyFivepx: "395px",
         threeHundred: "300px",
-        nineteen: "19px"
+        nineteen: "19px",
+        fourFiftyPx:"450px",
+        threeFiftyPx:"350px"
       },
 
       boxShadow: {
