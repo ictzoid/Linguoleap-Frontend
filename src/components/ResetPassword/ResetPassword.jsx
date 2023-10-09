@@ -2,6 +2,7 @@ import {useState} from "react"
 import{Link} from "react-router-dom"
 import{BsEye,BsEyeSlash} from "react-icons/bs"
 import{MdOutlineSecurity} from "react-icons/md"
+import{TiTick} from "react-icons/ti"
 import LinguoLogo from "../../assets/images/logo1a.png"
 const ResetPassword = () => {
     const [password,setPassword] =useState("")
@@ -9,6 +10,7 @@ const ResetPassword = () => {
     const [passwordError , setPasswordError]=useState("")
     const [confirmPasswordError , setConfirmPasswordError]=useState("")
     const[type,setType] = useState("password")
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false)
 
     const changeHandler=(e)=>{
         const{name,value}=e.target
@@ -30,6 +32,7 @@ const ResetPassword = () => {
             setPasswordError("password should be more than 7 character")
         }else{
             setPasswordError("")
+        
         }
          if(confirmPassword===""){
             setConfirmPasswordError("confirm password is required")
@@ -38,6 +41,7 @@ const ResetPassword = () => {
         }else{
             setConfirmPasswordError("")
         }
+        
         
         const data={
             password,
@@ -51,9 +55,24 @@ const ResetPassword = () => {
            setPasswordError("")
            setConfirmPasswordError("")
         },3000)
+
+        if(password==""  || confirmPassword=="" || password.length < 7 || confirmPassword.length < 7 ){
+            setIsFormSubmitted(false)
         
+
+        }else{
+           setIsFormSubmitted(true)
         
+        }
+        
+        setPassword("")
+        setConfirmPassword("")
     }
+    const handleClosePopup=()=>{
+        setIsFormSubmitted(false)
+    }
+
+    
     console.log(password,confirmPassword)
     
     const date = new Date()
@@ -110,6 +129,19 @@ const ResetPassword = () => {
        <div className="text-center mt-2 lg:mt-10">
         <p className="font-lexend text-inputGrey">&copy; copyrights {date.getFullYear()} <span className="text-primaryColor">langleap</span></p>
        </div>
+       {isFormSubmitted && (
+        <div className="fixed top-0 left-0 w-screen bg-opacity-80 h-screen bg-black">
+            <div className="absolute rounded w-threeHundred h-twoFiftyPx top-[30%] left-[20%] bg-white lg:left-[38%]">
+                <div className="mx-auto mt-6 flex justify-center items-center border-4 border-primaryColor rounded-full mb-0  w-sixtyPx h-sixtyPx">
+                    <TiTick className="text-6xl text-primaryColor"/>
+                     </div>
+            <p className="font-lexend text-center pt-2 pb-4 text-primaryColor">you have successfully reset your password</p>
+            <Link to="/login">
+            <button className="bg-primaryColor text-center w-twoFiftyPx mx-5 p-2 my-0 rounded-md text-white border-grayColor" onClick={handleClosePopup}>proceed to login</button>
+            </Link>
+            </div>
+        </div>
+       )}
     </div>
   )
 }

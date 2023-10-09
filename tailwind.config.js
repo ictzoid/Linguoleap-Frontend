@@ -24,8 +24,10 @@ export default {
       },
       height: {
         fourHundredPixels: "200px",
+        twoFiftyPx:"250px",
+        fourZeroZeroPx:"400px",
+        sixtyPx:"60px"
 
-        fourZeroZeroPx:"400px"
       },
       width: {
         threeSixSixPx: "366px",
@@ -41,9 +43,19 @@ export default {
         oneFiftyPixels: "150px",
         threeNintyFivepx: "395px",
         threeHundred: "300px",
-        
-        
-        
+        twoFiftyPx:"250px",
+        sixtyPx:"60px"
+     
+      },
+
+       
+      top:{
+        thirtyPercent:"30%"
+      },
+
+      left:{
+        twentyPercent:"20%",
+        thirtyEightPercent:"38%"
       },
 
       boxShadow: {
