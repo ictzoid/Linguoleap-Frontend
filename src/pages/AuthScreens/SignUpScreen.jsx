@@ -5,6 +5,7 @@ import { FcGoogle } from 'react-icons/fc';
 import { BsApple, BsEye, BsEyeSlash } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 
 
 const SignUpScreen = () => {
@@ -28,7 +29,6 @@ const SignUpScreen = () => {
       toast.error('Please fill in all fields.');
     } else {
       console.log(Data);
-      // You can submit the form data or perform other actions here.
     }
   };
 
@@ -143,9 +143,10 @@ const SignUpScreen = () => {
           </button>
         </div>
 
-        <div className='flex items-center justify-center my-1 lg:w-threeSixtySix'>
+        <div className='flex items-center justify-center gap-3 my-1 lg:w-threeSixtySix mb-10'>
           <span className=' text-sm'>Have an Account?</span>
-          <span className='text-primaryColor text-sm'>Log in</span>
+            <Link to={'/login'} className='text-primaryColor text-sm'>Log in
+            </Link>
         </div>
       </div>
       </div>
