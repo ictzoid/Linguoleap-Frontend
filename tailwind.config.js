@@ -26,7 +26,9 @@ export default {
         fourHundredPixels: "200px",
         twoFiftyPx:"250px",
         fourZeroZeroPx:"400px",
-        sixtyPx:"60px"
+        sixtyPx:"60px",
+        nintyVh:"90vh",
+        eightyVh:"80vh"
 
       },
       width: {
@@ -44,7 +46,8 @@ export default {
         threeNintyFivepx: "395px",
         threeHundred: "300px",
         twoFiftyPx:"250px",
-        sixtyPx:"60px"
+        sixtyPx:"60px",
+        hundredPx:"100px"
      
       },
 
