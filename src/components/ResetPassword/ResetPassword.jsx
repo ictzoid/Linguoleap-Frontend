@@ -56,7 +56,7 @@ const ResetPassword = () => {
            setConfirmPasswordError("")
         },3000)
 
-        if(password==""  || confirmPassword=="" || password.length < 7 || confirmPassword.length < 7 ){
+        if(password==""  || confirmPassword=="" || password.length < 7 || confirmPassword.length < 72 ){
             setIsFormSubmitted(false)
         
 
@@ -78,7 +78,7 @@ const ResetPassword = () => {
     const date = new Date()
   return (
     <div className="m-0 p-0 box-border">
-        <div className="m-6 w-[100px]">
+        <div className="m-6 w-hundredPx">
             <img src={LinguoLogo} />
         </div>
         <div className=" flex flex-col mx-auto my-0 p-12 h-fourZeroZeroPx w-threeFiftyPx lg:w-fourFiftyPx">
