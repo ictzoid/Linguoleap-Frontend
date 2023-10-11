@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import signUpImg from "../../assets/images/hue_image.svg";
 import Nav from "../../components/Navigation/Nav";
 import { FcGoogle } from "react-icons/fc";
@@ -27,7 +27,6 @@ const SignUpScreen = () => {
       toast.error("Please fill in all fields.");
     } else {
       console.log(Data);
-      // You can submit the form data or perform other actions here.
     }
   };
 
