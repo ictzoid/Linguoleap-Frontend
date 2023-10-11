@@ -1,10 +1,11 @@
+import EmailVerification from "../../components/Email/EmailVerification";
 
 const EmailVerificationScreen = () => {
   return (
-    <div>EmailVerificationScreen
-
+    <div>
+      <EmailVerification />
     </div>
-  )
-}
+  );
+};
 
-export default EmailVerificationScreen
+export default EmailVerificationScreen;
