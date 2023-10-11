@@ -69,8 +69,8 @@ const SignUpScreen = () => {
           </button>
         </div>
         <div className='w-full px-4'>
-          <button className='border border-primaryColor rounded-md flex items-center justify-center gap-2 text-primaryColor w-full text-xs font-normal h-thirtySixPixels lg:h-fourtyTwopx lg:w-threeSixtySix lg:text-lg'>
-            <BsApple className='h-nineteen w-nineteen text-blackNeutral' /> Signup
+          <button className='border border-primaryColor rounded-md flex items-center justify-center gap-2 text-primaryColor w-full text-xs font-normal h-thirtySixPixels lg:h-fourtyTwopx lg:w-threeSixtySix lg:text-lg '>
+            <BsApple className='h-nineteen w-nineteen text-blackNeutral' /> SignUp
             with Google
           </button>
         </div>
