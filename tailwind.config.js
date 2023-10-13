@@ -13,58 +13,62 @@ export default {
         inputError: "#F31623",
         grayScale: "#616161",
         grayScale2: "#B0B0B0",
-        onhoverColor:'#A986b6',
-        
+        onhoverColor: "#A986b6",
         secondary_color: "#ff7536",
-        grayColor:"#b0b0b0",
-       
+        grayColor: "#b0b0b0",
       },
       padding: {
         tenPx: "10px",
       },
       height: {
         fourHundredPixels: "200px",
-        twoFiftyPx:"250px",
-        fourZeroZeroPx:"400px",
-        sixtyPx:"60px",
-        nintyVh:"90vh",
-        eightyVh:"80vh"
-
-      },
-      width: {
-        threeSixSixPx: "366px",
-        fourFiftyPx:"450px",
-        threeFiftyPx: "350px",
+        twoFiftyPx: "250px",
+        fourZeroZeroPx: "400px",
+        sixtyPx: "60px",
+        nintyVh: "90vh",
+        eightyVh: "80vh",
         thirtySixPixels: "36px",
         fourtypx: "40px",
         oneThirtyPixels: "130px",
         nineteen: "19px",
-        fourtyTwopx: '42px',
-        fourtyFivepx: '45px',
-        fourHundredPx:"400px",
+        fourtyTwopx: "42px",
+        fourtyFivepx: "45px",
+      },
+      width: {
+        threeSixSixPx: "366px",
+        threeSixSix: "366px",
+        fourFiftyPx: "450px",
+        threeFiftyPx: "350px",
+        threeFifty: "350px",
+        thirtySixPixels: "36px",
+        fourtypx: "40px",
+        oneThirtyPixels: "130px",
+        nineteen: "19px",
+        fourtyTwopx: "42px",
+        fourtyFivepx: "45px",
+        fourHundredPx: "400px",
         oneFiftyPixels: "150px",
         threeNintyFivepx: "395px",
         threeHundred: "300px",
-        twoFiftyPx:"250px",
-        sixtyPx:"60px",
-        hundredPx:"100px"
-     
+        twoFiftyPx: "250px",
+        sixtyPx: "60px",
+        hundredPx: "100px",
+        threeSixtySix: "366px",
       },
 
-       
-      top:{
-        thirtyPercent:"30%"
+      top: {
+        thirtyPercent: "30%",
       },
 
-      left:{
-        twentyPercent:"20%",
-        thirtyEightPercent:"38%"
+      left: {
+        twentyPercent: "20%",
+        thirtyEightPercent: "38%",
       },
 
       boxShadow: {
-        'text': '0px 4px 4px rgba(0, 0, 0, 0.25)',
+        text: "0px 4px 4px rgba(0, 0, 0, 0.25)",
       },
-      
+
       fontFamily: {
         lexend: "Lexend",
         montserrat: "Montserrat",
@@ -74,7 +78,7 @@ export default {
       },
       fontSize: {
         thirtytwoPixels: "32px",
-        thirtyPixels: "30px", 
+        thirtyPixels: "30px",
         pDef: "14px",
         pSm: "16px",
         pLg: "18px",
