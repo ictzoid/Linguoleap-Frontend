@@ -7,13 +7,13 @@ import EmailVerificationPage3 from "../pages/AuthScreens/EmailVerificationPage3"
 import VerifiedPage from "../pages/AuthScreens/VerifiedPage";
 import ForgetPasswordScreen from "../pages/AuthScreens/ForgetPasswordScreen";
 import ResetPasswordScreen from "../pages/AuthScreens/ResetPasswordScreen";
-import Home from "../pages/Home/Home";
+// import Home from "../pages/Home/Home";
 
 const Router = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LoginScreen />} />
         <Route path="/login" element={<LoginScreen />} />
         <Route path="/register" element={<SignUpScreen />} />
         <Route
